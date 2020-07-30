@@ -1,0 +1,18 @@
+package com.sample.cities;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * 
+ * @author Gowthami V
+ *
+ */
+@SpringBootApplication
+public class CitiesApplication {
+	
+	public static void main(String[] args) {
+        SpringApplication.run(CitiesApplication.class, args);
+    }
+
+}
